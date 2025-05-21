@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>Best earbuds under 1500!
+        </title>
+        <link rel="stylesheet" href="earbud.css">
+    </head>
+    <body>
+      <nav>
+      <a href="#l">
+        <img class="logo" src="logo-removebg-preview.png">
+    </a>
+</div>
+<a class="nav" href="MAIN PAGE.html">Home</a>
+<a class="nav" href="#">Interviews</a>
+<a class="nav" href="#">Gadgets</a>
+<a class="nav" href="#">Newly Launched</a>
+<a class="nav" href="#">Contact</a>
+<a class="nav" href="#">About</a>
+</nav>
+<!-- <h2>User Feedback Form</h2> -->
+<br><br>
+
+      <h3>Best Earbuds under 1500!</h3>
+        <div class="container1">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="earphone 1 a.jpg" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="earphone 1 b.jpg" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="earphone 1 c.jpg" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+                
+                <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+
+        <div class="div1">
+            <h1>ONYZE ON901-ARMOR Gaming Earbuds!</h1>
+                <p>
+                    <ul>
+                        <li>Extended Playtime and Ultra fast charging technology: Enjoy up to 50 hours of uninterrupted music.
+                        </li>
+                        <br>
+                        <li>
+                            Quad Mic ENC: Crystal clear calls with advanced noise cancellationThis technology effectively reduces background noise.
+                        </li><br>
+                        <li>
+                            Bluetooth 5.3 : More Stable Connections with Bluetooth 5.3,fewer connection dropouts and stronger, more stable links between your earbuds and the device.
+                        </li><br>
+                        <li>
+                            Water resistant: With an IPX5 water-resistant rating, ONYZE Armor 901 earbuds are built for workouts and heavy sweating
+                        </li>
+                    </ul>
+                </p></div> </div>
+                
+                    
+                     </div>
+                   
+    </body>
+</html>
